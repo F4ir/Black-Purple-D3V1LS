@@ -359,6 +359,26 @@
 	-webkit-mask-size: var(--moon-icon-size);
 	-webkit-mask-repeat: none;
 }
+.wrapper_f90abb:hover .childWrapper_f90abb::before {
+	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transform: rotate(0deg) scale(1);
+}
+.wrapper_f90abb:hover > .childWrapper_f90abb::before,
+.wrapper_f90abb.selected_f90abb > .childWrapper_f90abb::before {
+	background: var(--text-0);
+	transform: rotate(-360deg) scale(0.8);
+}
+.lowerBadge_c5f96a::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	transform: translate(-4px, -4px);
+	z-index: -1;
+	background: var(--bg-3);
+	border-radius: 50%;
+}
 	
 .theme-dark {
 	--activity-card-background: blue;
