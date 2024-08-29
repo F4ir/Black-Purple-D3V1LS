@@ -144,6 +144,16 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4))::before {
+	content: '';
+	display: var(--moon-icon);
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	background: var(--text-4);
+	-webkit-mask-image: var(--moon-icon-url);
+	-webkit-mask-size: var(--moon-icon-size);
+	-webkit-mask-repeat: none;
 .lookBlank-FgPMy6 .contents-3NembX /* fix back button */ {
 	color: var(--text-4);
 }
