@@ -4,6 +4,9 @@
 @import url(https://raw.githubusercontent.com/F4ir/Extens/main/Sources.css);
 
 :root {
+	--moon-icon: block;
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg');
+	--moon-icon-size: auto;
 	/* amount of spacing and padding */
 	--spacing: 12px;
 	/* radius of round corners */
