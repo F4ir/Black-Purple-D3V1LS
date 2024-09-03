@@ -1,6 +1,7 @@
 ﻿:root, .theme-dark, .theme-light {
     --highlight: rgb(var(--rgb-highlight));
     --rgb-background: 0, 0, 0;
+    --background: hsl(220, 15%, 10%);
     --rgb-text: 197, 200, 198;
     --text: rgb(var(--rgb-text));
     --rgb-close-button: 212, 18, 39;
