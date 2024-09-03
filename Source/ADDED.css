@@ -6,7 +6,7 @@
 /* CUSTOMIZE COLORS IN HERE! */
 :root {
     --rgb-highlight: 101, 0, 209; /* The main highlight color (changed to pink) */
-    --rgb-background: 0, 0, 0; /* The main background color */
+/*    --rgb-background: 0, 0, 0; /* The main background color */
 
     --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
 
