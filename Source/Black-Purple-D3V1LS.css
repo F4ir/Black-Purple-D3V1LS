@@ -343,10 +343,6 @@
 }
 	
 .theme-dark {
-	--activity-card-background: blue;
-	--android-navigation-bar-background: blue;
-	--android-navigation-scrim-background: blue;
-	--android-ripple: blue;
 	--background-accent: var(--bg-1);
 	--background-floating: var(--primary-800);
 	--background-mentioned: var(--mention);
@@ -362,7 +358,6 @@
 	--background-modifier-active: var(--active);
 	--background-modifier-hover: var(--hover);
 	--background-modifier-selected: var(--active);
-	--background-nested-floating: blue;
 	--background-primary: var(--bg-4);
 	--background-secondary: var(--bg-4);
 	--background-secondary-alt: var(--bg-4);
@@ -426,9 +421,6 @@
 	--channel-text-area-placeholder: var(--text-5);
 	--channels-default: var(--text-4);
 	--channeltextarea-background: var(--bg-3);
-	--chat-background: blue;
-	--chat-border: blue;
-	--chat-input-container-background: blue;
 	--control-brand-foreground: var(--brand-360);
 	--control-brand-foreground-new: var(--brand-360);
 	--creator-revenue-icon-gradient-end: var(--teal-430);
@@ -555,7 +547,6 @@
 	--redesign-only-background-active: var(--primary-530);
 	--redesign-only-background-default: var(--primary-700);
 	--redesign-only-background-overlay: var(--primary-600);
-	--redesign-only-background-raised: blue;
 	--redesign-only-background-sunken: var(--primary-800);
 	--scrollbar-auto-scrollbar-color-thumb: var(--bg-3);
 	--scrollbar-auto-scrollbar-color-track: transparent;
