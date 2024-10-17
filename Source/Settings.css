@@ -1,0 +1,103 @@
+ :root {
+     --brand-500: var(--color03);
+ }
+
+ .theme-dark,
+ .theme-light {
+     --background-tertiary: transparent;
+     --brand-560: var(--color03);
+ }
+
+ .sidebarRegion_c25c6d {
+     justify-content: flex-start;
+     flex: 0 0;
+ }
+
+ .contentColumn_c25c6d,
+ .customColumn_c25c6d {
+     max-width: 100%
+ }
+
+ .accountProfileCard_b69b77 circle {
+     cx: 0 !important;
+     cy: 0 !important;
+     r: 0 !important;
+ }
+
+ #my-account-tab .fieldList_b69b77 {
+     background: none;
+     display: flex;
+     justify-content: center;
+ }
+
+ #my-account-tab .avatar_b69b77 {
+     left: 50%;
+     transform: scale(2);
+ }
+
+ .field_b69b77 {
+     display: flex;
+     flex-direction: column;
+     margin: 0 5px;
+     height: 100%;
+     width: 100%;
+     padding: 20px 10px;
+     border-radius: var(--br16);
+     background: var(--color01);
+ }
+
+ #my-account-tab .userSettingsSecurity_ad4a7c :is(.changePasswordButton_ad4a7c, .flex_dc333f, .flexChild_dc333f, .settings_eaef52) {
+     margin: 0 !important;
+ }
+
+ #my-account-tab .userSettingsSecurity_ad4a7c .button_dd4f85,
+ div:has(>.changePasswordButton_ad4a7c) {
+     margin: 0 !important;
+     margin-right: -10px !important;
+     width: 10vw;
+ }
+
+ #my-account-tab .userSettingsSecurity_ad4a7c .children_a6ae9b {
+     display: flex;
+     flex-direction: row;
+ }
+
+ #my-account-tab .flexChild_dc333f>div {
+     display: flex;
+ }
+
+ #my-account-tab .userSettingsSecurity_ad4a7c .marginTop40_f7730b {
+     margin: 0 !important;
+ }
+
+ .theme-dark,
+ .theme-light {
+     --modal-border: 24px;
+ }
+
+ .banner_d5fdb1 {
+     border-radius: var(--modal-border);
+     z-index: -10;
+     position: relative;
+     overflow: visible;
+ }
+
+ :is(.userSettingsSecurity_ad4a7c, .marginTop40_f7730b) :is(h1, h2, h3, h4),
+ .marginTop40_f7730b [class*="description_"],
+ .bannerImage_fd6364::before {
+     display: none !important;
+ }
+
+ .option_f6639d {
+     margin: 0 !important
+ }
+
+ .peopleListItem_d51464,
+ .peopleListItem_d51464 .userInfo_f3939d {
+     overflow: visible;
+ }
+
+ :is(.member_a31c43, .containerDefault_f6f816, [role="listitem"]:not(:has([href="/channels/@me"], [href="/store"], [href="/shop"])), [role^="menuitem"], [role="option"], .listRow_d2d6cb, .item_a0):hover {
+     transition: all 0s, transform .2s;
+     transform: scale(1.02);
+ }
